@@ -7,14 +7,34 @@ a {
 }
 
 h1 {
-    position: relative;
-    left: 32%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(230, 230, 126);
     text-align: center;
     font-size: 50px;
     border-radius: 20px;
     padding: 20px 0px 20px 0px;
     width: 35%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(122, 223, 197);
+    text-align: center;
+    font-size: 35px;
+    border-radius: 15px;
+    padding: 5px 0px 5px 0px;
+    width: 20%;
+    margin-top: 100px;
 }
 
 #main {
