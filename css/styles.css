@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     background-color: #F2DCD3;
 }
 
@@ -90,4 +90,15 @@ h2 {
 
 .secondary li:last-child {
     padding-bottom: 20px;
+}
+
+.return {
+    position: fixed;
+    bottom: 4vh;
+    left: 3vw;
+    width:fit-content;
+    height:fit-content;
+    font-size: 2vw;
+    background-color: lightblue;
+    border: 3px solid black;
 }
