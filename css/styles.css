@@ -1,14 +1,27 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: #F2DCD3;
 }
 
 a {
     text-decoration: none;
 }
 
-h1 {
+h1,
+h2,
+img,
+.text,
+.secondary {
     margin-left: auto;
     margin-right: auto;
+}
+
+h1,
+h2 {
+    border: 3px solid black;
+}
+
+h1 {
     background-color: rgb(230, 230, 126);
     text-align: center;
     font-size: 6vh;
@@ -19,8 +32,6 @@ h1 {
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 25%;
     height: auto;
     border-radius: 60px;
@@ -28,8 +39,6 @@ img {
 }
 
 h2 {
-    margin-left: auto;
-    margin-right: auto;
     background-color: rgb(122, 223, 197);
     text-align: center;
     font-size: 35px;
@@ -59,15 +68,11 @@ h2 {
 }
 
 .text {
-    margin-left: auto;
-    margin-right: auto;
     font-size: 25px;
     width: 70%;
 }
 
 .secondary {
-    margin-left: auto;
-    margin-right: auto;
     font-size: 2.5vh;
     width: 30%;
     background-color: orange;
