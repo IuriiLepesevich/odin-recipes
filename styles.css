@@ -24,7 +24,7 @@ img {
     width: 25%;
     height: auto;
     border-radius: 60px;
-    margin-bottom: -100px;
+    margin-bottom: -50px;
 }
 
 h2 {
@@ -36,7 +36,7 @@ h2 {
     border-radius: 15px;
     padding: 5px 0px 5px 0px;
     width: 20%;
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
 #main {
@@ -63,4 +63,26 @@ h2 {
     margin-right: auto;
     font-size: 25px;
     width: 70%;
+}
+
+.secondary {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5vh;
+    width: 30%;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.secondary li {
+    list-style-position: inside;
+    margin-top: 35px;
+}
+
+.secondary li:first-child {
+    padding-top: 20px;
+}
+
+.secondary li:last-child {
+    padding-bottom: 20px;
 }
