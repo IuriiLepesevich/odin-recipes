@@ -101,4 +101,5 @@ h2 {
     font-size: 2vw;
     background-color: lightblue;
     border: 3px solid black;
+    border-radius: 10px;
 }
